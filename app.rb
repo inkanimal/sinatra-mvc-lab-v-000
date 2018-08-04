@@ -11,7 +11,7 @@ class App < Sinatra::Base
     
     sent = params[:user_phrase]
     word = PigLatinizer.new
-    @pig_lantizer = word.piglatinize(sent)
+    @pig_latinizer = word.piglatinize(sent)
    
   # @pig_latinizer = PigLatinizer.new(params[:user_phrase]) 
 
